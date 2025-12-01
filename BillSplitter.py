@@ -2,7 +2,7 @@ def main():
     # Get household member names
     print("=== Grocery Bill Splitter ===\n")
 
-    num_members = int(input("Enter the number of members in your household"))
+    num_members = int(input("Enter the number of members in your household: "))
     
     members = []
     for i in range(num_members):
